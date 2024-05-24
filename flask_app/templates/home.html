@@ -1,0 +1,23 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Credit classifications</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./static/css/style.css">    
+
+</head>    
+    <body class="form_body" background="./static/Images/bluewhite.jpg">
+        <p class="form_label" >Welcome to the Crystal Credit Classifier {{name_id}}</p>
+        <form action="predict" method="POST">
+            person_age: <input class="form-control" type="text" name="person_age"><br>
+            person_income: <input class="form-control" type="text" name="person_income"><br>
+            person_emp_length:<input class="form-control" type="number" name="person_emp_length"><br>
+            loan_amnt: <input class="form-control" type="number" name="loan_amnt"><br>
+            loan_int_rate: <input class="form-control" type="number" name="loan_int_rate"><br>
+            cb_person_cred_hist_length: <input class="form-control" type="number" name="cb_person_cred_hist_length"><br>
+            <input class="btn_btn-primary" type="submit" value="Submit">
+        </form>
+    </body> 
+<html> 
